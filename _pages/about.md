@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Amazon and IZA Institute of Labor Economics</a>
+subtitle: <a href='#'>Economist and IZA Research Affiliate</a>
 
 profile:
   align: right
