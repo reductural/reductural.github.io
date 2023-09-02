@@ -6,7 +6,7 @@ subtitle: <a href='#'>Amazon and IZA Institute of Labor Economics</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profpic.jpg
   image_circular: false # crops the image to make it circular
   address: false
 
@@ -18,4 +18,10 @@ social: true  # includes social icons at the bottom of the page
 
 I am an economist with research interests in labor, education migration, China, and technology. I received my Ph.D. in Economics from Princeton University and was a Postdoctoral Research Associate at Princeton School of Public and International Affairs.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Twitter**: [@mingyuchen_econ](https://twitter.com/mingyuchen_econ) \
+**Linkedin**: [link](https://www.linkedin.com/in/mingyu-chen-23208215/) \
+**Google Scholar**: [link](https://scholar.google.com/citations?hl=en&user=lttlo7gAAAAJ)
+
+**Project ADVISE** (Analytics and Data Visualization for International Student and Education): [link](https://ers.princeton.edu/project-advise-about)
+
+**Contact Information**: [mingyuc@alumni.princeton.edu](mailto:mingyuc@alumni.princeton.edu)
