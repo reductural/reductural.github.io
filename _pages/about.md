@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Economist and IZA Research Affiliate</a>
+subtitle: <a href="https://mingyu-chen.com">Senior Economist and IZA Research Affiliate</a>
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an economist with research interests in labor, education migration, China, and technology. I received my Ph.D. in Economics from Princeton University and was a Postdoctoral Research Associate at Princeton School of Public and International Affairs.
+Welcome to my website. I am an economist with research interests in labor, education migration, China, and technology. I received my Ph.D. in Economics from Princeton University and was a Postdoctoral Research Associate at Princeton School of Public and International Affairs.
 
 **Twitter**: [@mingyuchen_econ](https://twitter.com/mingyuchen_econ) \
 **Linkedin**: [link](https://www.linkedin.com/in/mingyu-chen-23208215/) \

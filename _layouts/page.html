@@ -1,27 +1,148 @@
 ---
 layout: default
 ---
-<!-- page.html -->
-        <div class="post">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .publication {
+        padding: 15px;
+        margin-bottom: 5px; /* You can adjust this value to control the space between papers */
+    }
+    .abstract {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+    .abstract.open {
+        max-height: 500px;  /* You can adjust this value based on your needs */
+    }
+    .bullet-point, .inline-abstract { /* this is for the bullet point in abstract */
+        display: none;
+    }
+    .inline-abstract { /* this is for the bullet point in abstract */
+        display: inline;
+    }
+    .close-lines {
+        margin-bottom: 0;
+    }
+    .no-margin-top {
+        margin-top: 0;
+    }
+    .bold-text {
+        font-weight: bold;
+    }
+    .indented-content {
+        margin-left: 30px;  /* You can adjust this value */
+    }
+</style>
 
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-description">{{ page.description }}</p>
-          </header>
 
-          <article>
-            {{ content }}
-          </article>
+<body>
 
-          {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-          <h2>References</h2>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-          </div>
-          {%- endif %}
+<h4>Working Papers</h4>
+<p></p>
 
-          {%- if site.giscus.repo and page.giscus_comments -%}
-            {% include giscus.html %}
-          {%- endif -%}
-        </div>
+<div class="publication" id="pub1">
+    <span class="bold-text">The Impact of International Students on US Colleges: Higher Education as a Service Export</span><br>
+    <div class="indented-content">
+      <span>Mingyu Chen and Yanzun Yang</span><br>
+      <span>Media coverage: 
+            <a href="https://www.opencampusmedia.org/2021/05/17/how-the-public-sees-international-students/" target="_blank">[latitude(s)]</a>, 
+            <a href="https://mailchi.mp/ojed/jis-11-3" target="_blank">[Journal of International Students] </a>
+      </span><br>
+      <span><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Current draft (September 2023)] </a></span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract1'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract1">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">Recent immigration policies have created massive uncertainty for inBetween 2005 and 2016, international enrollment in US higher education nearly doubled. I examine how trade shocks in education affect public universities’ decisionmaking. I construct a shift-share instrument to exploit institutions’ historical networks with different origins of international students, income growth, and exchange-rate fluctuations. Contrary to claims that US-born students are crowded out, I find that international students increase schools’ funding via tuition payments, which leads to increased in-state enrollment and lower tuition prices. Schools also keep steady per-student spending and recruit more students with high math scores. Lastly, states allocate more appropriations to universities that attract fewer international students.</p>
+      </div>
+    </div>
+</div>
+
+<div class="publication" id="pub2">
+    <span class="bold-text">The impact of immigration on firms and workers: insights from the H-1B lottery</span><br>
+    <div class="indented-content">
+      <span>Agostina Brinatti, Mingyu Chen, Parag Mahajan, Nicolas Morales, and Kevin Shih</span><br>
+      <span><a href="https://nicolasmoralesg.github.io/papers/H1B_lotteries_Census.pdf" target="_blank">[Current draft (April 2023)] </a></span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract2'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract2">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">We study how random variation in the availability of highly educated, foreign-born workers impacts firm performance and recruitment behavior. We combine two rich data sources: 1) administrative employer-employee matched data from the US Census Bureau; and 2) firm-level information on the first large-scale H-1B visa lottery in 2007. Using an event-study approach, we find that lottery wins lead to increases in firm hiring of college-educated, immigrant labor along with increases in scale and productivity. Skill-intensive, high-paying firms expand the most after winning the H-1B lottery. We find limited evidence of displacement effects on native-born, college-educated workers.</p>
+      </div>
+    </div>
+</div>
+
+<div class="publication" id="pub3">
+    <span class="bold-text">Job Characteristics, Gender Sorting, and Gender Pay Gap: Evidence from Online Job Postings</span><br>
+    <div class="indented-content">
+      <span>Mingyu Chen and Qinyue Luo</span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract3'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract3">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">Draft available upon request.</p>
+      </div>
+    </div>
+</div>
+
+<div class="publication" id="pub4">
+    <span class="bold-text">Income and Geographic Segregation Across Colleges in China</span><br>
+    <div class="indented-content">
+      <span>Mingyu Chen, Ernest Liu and Yinshan Shang</span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract4'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract4">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">Draft available upon request.</p>
+      </div>
+    </div>
+</div>
+
+
+<hr>
+
+
+<h4>Published Papers</h4>
+<p></p>
+
+<div class="publication" id="pub1">
+    <span class="bold-text">
+        Best and Brightest? The Impact of Student Visa Restrictiveness on Who Attends College in the US</span><br>
+    <div class="indented-content">
+      <span>Mingyu Chen, Jessica Howell and Jonathan Smith</span><br>
+      <span><i><u>Labour Economics</u>, Vol.84 (October 2023)</i></span><br>
+      <span>Media coverage: 
+            <a href="https://www.getrevue.co/profile/latitudes/issues/another-blow-edition-246020" target="_blank">[latitude(s)]</a>, 
+            <a href="https://www.scmp.com/news/china/article/3092242/trump-administration-limits-international-visas-leave-chinese-students" target="_blank">[South China Morning Post] </a>, 
+            <a href="https://www.future-ed.org/best-and-brightest-the-impact-of-student-visa-restrictions/" target="_blank">[FutureEd] </a>
+      </span><br>
+      <span><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Published Version] </a><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Final draft ()]</a></span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract1'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract1">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">Recent immigration policies have created massive uncertainty for inBetween 2005 and 2016, international enrollment in US higher education nearly doubled. I examine how trade shocks in education affect public universities’ decisionmaking. I construct a shift-share instrument to exploit institutions’ historical networks with different origins of international students, income growth, and exchange-rate fluctuations. Contrary to claims that US-born students are crowded out, I find that international students increase schools’ funding via tuition payments, which leads to increased in-state enrollment and lower tuition prices. Schools also keep steady per-student spending and recruit more students with high math scores. Lastly, states allocate more appropriations to universities that attract fewer international students.</p>
+      </div>
+    </div>
+</div>
+
+
+
+</body>
+
+
+<script>
+    function toggleAbstract(abstractId) {
+        var abstractElement = document.getElementById(abstractId);
+        var bulletPoint = abstractElement.querySelector('.bullet-point');
+        var inlineAbstract = abstractElement.querySelector('.inline-abstract');
+        
+        if (abstractElement.classList.contains("open")) {
+            abstractElement.classList.remove("open");
+            bulletPoint.style.display = "none";
+            inlineAbstract.style.display = "none";
+        } else {
+            abstractElement.classList.add("open");
+            bulletPoint.style.display = "inline";
+            inlineAbstract.style.display = "inline";
+        }
+    }
+</script>
