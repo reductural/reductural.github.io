@@ -31,6 +31,9 @@ layout: default
     }
     .bold-text {
         font-weight: bold;
+        white-space: nowrap;  /* Prevents text from wrapping */
+        overflow: hidden;  /* Hides text that overflows the container */
+        text-overflow: ellipsis;  /* Adds an ellipsis (...) when text overflows */
     }
     .indented-content {
         margin-left: 30px;  /* You can adjust this value */
@@ -104,7 +107,32 @@ layout: default
 <h4>Published Papers</h4>
 <p></p>
 
-<div class="publication" id="pub1">
+<div class="publication" id="pub6">
+    <span class="bold-text">
+        The Value of US College Education in Global Labor Markets: Experimental Evidence from China</span><br>
+    <div class="indented-content">
+      <span>Mingyu Chen</span><br>
+      <span><i>Forthcoming, <u>Management Science)</u></i></span><br>
+      <span>Media coverage (selected): 
+            <a href="https://www.insidehighered.com/news/2019/04/11/research-chinese-employers-are-more-likely-call-back-chinese-educated-applicants" target="_blank">[INSIDE HIGHER ED]</a>, 
+            <a href="https://www.chronicle.com/article/fading-beacon?bc_nonce=ohb1usio1vznshtawcjw&cid=reg_wall_signup" target="_blank">[Chronicle of Higher Education] </a>, 
+            <a href="http://lx.huanqiu.com/cooperation/2019-04/14708918.html?agt=15438" target="_blank">[Global Times] </a>, 
+            <a href="http://www.nbd.com.cn/articles/2019-04-13/1320812.html?tdsourcetag=s_pcqq_aiomsg" target="_blank">[National Business Daily (with 200 million views on Weibo, Chinese "Twitter")] </a>, 
+            <a href="https://thepienews.com/news/us-educated-chinese-grads-less-likely-to-find-jobs-on-return-study/" target="_blank">[PIE News] </a>, 
+            <a href="https://qz.com/1634589/china-issued-travel-warnings-about-the-many-dangers-of-the-us" target="_blank">[Quartz] </a>, 
+            <a href="https://www.universityworldnews.com/post.php?story=20190507111155578" target="_blank">[University World News] </a>
+      </span><br>
+      <span><a href="/assets/pdf/Chen_UScollegeChina_prepub.pdf" target="_blank">[Pre-publication (August 2022)]</a></span><br> 
+      <span><a href="#" onclick="toggleAbstract('abstract6'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract6">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">One million international students study in the United States each year, and the majority of them compete in global labor markets after graduation. I conducted a large-scale field experiment and a companion employer survey to study how employers in China value U.S. college education. I sent more than 27,000 fictitious online applications to business and computer science jobs in China, randomizing the country of college education. I find that U.S.-educated applicants are on average 18% less likely to receive a callback than applicants educated in China, with applicants from very selective U.S. institutions under- performing those from the least selective Chinese institutions. The United States-China call- back gap is smaller at high-wage jobs, consistent with employers fearing U.S.-educated applicants have better outside options and would be harder to hire and retain. The gap is also smaller at foreign-owned firms, consistent with Chinese-owned firms knowing less about American education. Controlling for high school quality, test scores, or U.S. work experiences does not attenuate the gap, suggesting that the gap is not driven by employer perceptions of negative selection. A survey of 507 hiring managers at college career fairs finds consistent and additional supporting evidence for the experimental findings.</p>
+      </div>
+    </div>
+</div>
+
+
+<div class="publication" id="pub5">
     <span class="bold-text">
         Best and Brightest? The Impact of Student Visa Restrictiveness on Who Attends College in the US</span><br>
     <div class="indented-content">
@@ -115,11 +143,11 @@ layout: default
             <a href="https://www.scmp.com/news/china/article/3092242/trump-administration-limits-international-visas-leave-chinese-students" target="_blank">[South China Morning Post] </a>, 
             <a href="https://www.future-ed.org/best-and-brightest-the-impact-of-student-visa-restrictions/" target="_blank">[FutureEd] </a>
       </span><br>
-      <span><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Published Version] </a><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Final draft ()]</a></span><br>
-      <span><a href="#" onclick="toggleAbstract('abstract1'); return false;">[Show/hide abstract]</a></span><br>
-      <div class="abstract" id="abstract1">
+      <span><a href="/assets/pdf/CHS_F1visaSAT_published.pdf" target="_blank">[Published Version] </a><a href="/assets/pdf/CHS_F1visaSAT_prepub.pdf" target="_blank">[Pre-publication (April 2023)]</a></span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract5'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract5">
           <span class="bullet-point">&#8226;</span>
-          <p class="inline-abstract">Recent immigration policies have created massive uncertainty for inBetween 2005 and 2016, international enrollment in US higher education nearly doubled. I examine how trade shocks in education affect public universities’ decisionmaking. I construct a shift-share instrument to exploit institutions’ historical networks with different origins of international students, income growth, and exchange-rate fluctuations. Contrary to claims that US-born students are crowded out, I find that international students increase schools’ funding via tuition payments, which leads to increased in-state enrollment and lower tuition prices. Schools also keep steady per-student spending and recruit more students with high math scores. Lastly, states allocate more appropriations to universities that attract fewer international students.</p>
+          <p class="inline-abstract">Before the COVID-19 pandemic, student F-1 visa applicants faced a 27 percent refusal rate that varies by time and region. Recent immigration policies have created uncertainty in whether international students will receive their visas. Using data on the universe of SAT takers between 2004 and 2015 matched with college enrollment records, we examine how the anticipated F-1 visa restrictiveness influences the enrollment of international students in the US. Using an instrumental variables approach, we find that a higher anticipated F-1 student visa refusal rate decreases the number of international SAT takers, decreases the probability of sending SAT scores to US colleges, and decreases international student enrollment in the US. The decreases are larger among international students with higher measured academic achievement. We also document academic achievement of international students and show that over 40 percent of high-scoring international SAT takers do not pursue US college education.</p>
       </div>
     </div>
 </div>
