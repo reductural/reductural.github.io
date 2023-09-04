@@ -18,7 +18,6 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my website. I am a Senior Economist at Amazon and a Research Affiliate to the IZA Institute of Labor Economics. My academic research interests are in labor, migration, China, causal inference, and consumer behaviors. I received my Ph.D. in Economics from Princeton University and was a Postdoctoral Research Associate at Princeton School of Public and International Affairs.
 
-
 <html>
 
 <!-- Add FontAwesome for icons -->
