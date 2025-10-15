@@ -60,7 +60,7 @@ nav_order: 2
 <div class="publication" id="pub6">
     <span class="bold-text">The Impact of International Students on US Colleges: Higher Education as a Service Export</span><br>
     <div class="indented-content">
-      <span>Mingyu Chen and Yanzun Yang</span><br>
+      <span>joint work with Yanzun Yang</span><br>
       <span>Media coverage: 
             <a href="https://www.opencampusmedia.org/2021/05/17/how-the-public-sees-international-students/" target="_blank">[latitude(s)]</a>, 
             <a href="https://mailchi.mp/ojed/jis-11-3" target="_blank">[Journal of International Students] </a>
@@ -77,8 +77,9 @@ nav_order: 2
 <div class="publication" id="pub7">
     <span class="bold-text">The impact of immigration on firms and workers: insights from the H-1B lottery</span><br>
     <div class="indented-content">
-      <span>Agostina Brinatti, Mingyu Chen, Parag Mahajan, Nicolas Morales, and Kevin Shih</span><br>
-      <span><a href="https://nicolasmoralesg.github.io/papers/H1B_lotteries_Census.pdf" target="_blank">[Current draft (April 2023)] </a></span><br>
+      <span>joint work with Agostina Brinatti, Parag Mahajan, Nicolas Morales, and Kevin Shih</span><br>
+      <span><b>Revise and Resubmit at Journal of Political Economy</b></span><br>
+      <span><a href="https://nicolasmoralesg.github.io/papers/H1B_lotteries_Census.pdf" target="_blank">[Current draft (May 2025)] </a></span><br>
       <span><a href="#" onclick="toggleAbstract('abstract7'); return false;">[Show/hide abstract]</a></span><br>
       <div class="abstract" id="abstract7">
           <span class="bullet-point">&#8226;</span>
@@ -90,7 +91,7 @@ nav_order: 2
 <div class="publication" id="pub8">
     <span class="bold-text">Job Characteristics, Gender Sorting, and Gender Pay Gap: Evidence from Online Job Postings</span><br>
     <div class="indented-content">
-      <span>Mingyu Chen and Qinyue Luo</span><br>
+      <span>joint work with Qinyue Luo</span><br>
       <span><a href="#" onclick="toggleAbstract('abstract8'); return false;">[Show/hide abstract]</a></span><br>
       <div class="abstract" id="abstract8">
           <span class="bullet-point">&#8226;</span>
@@ -102,7 +103,7 @@ nav_order: 2
 <div class="publication" id="pub9">
     <span class="bold-text">Income and Geographic Segregation Across Colleges in China</span><br>
     <div class="indented-content">
-      <span>Mingyu Chen, Ernest Liu and Yinshan Shang</span><br>
+      <span>joint work with Ernest Liu and Yinshan Shang</span><br>
       <span><a href="#" onclick="toggleAbstract('abstract9'); return false;">[Show/hide abstract]</a></span><br>
       <div class="abstract" id="abstract9">
           <span class="bullet-point">&#8226;</span>
@@ -118,12 +119,32 @@ nav_order: 2
 <h4>Published Papers</h4>
 <p></p>
 
+<div class="publication" id="pub4">
+    <span class="bold-text">
+        Best and Brightest? The Impact of Student Visa Restrictiveness on Who Attends College in the US</span><br>
+    <div class="indented-content">
+      <span>joint work with Jessica Howell and Jonathan Smith</span><br>
+      <span><i><u>Labour Economics</u>, Vol.84 (October 2023)</i></span><br>
+      <span>Media coverage: 
+            <a href="https://www.getrevue.co/profile/latitudes/issues/another-blow-edition-246020" target="_blank">[latitude(s)]</a>, 
+            <a href="https://www.scmp.com/news/china/article/3092242/trump-administration-limits-international-visas-leave-chinese-students" target="_blank">[South China Morning Post] </a>, 
+            <a href="https://www.future-ed.org/best-and-brightest-the-impact-of-student-visa-restrictions/" target="_blank">[FutureEd] </a>
+      </span><br>
+      <span><a href="/assets/pdf/CHS_F1visaSAT_published.pdf" target="_blank">[Published Version] </a><a href="/assets/pdf/CHS_F1visaSAT_prepub.pdf" target="_blank">[Pre-publication (April 2023)]</a></span><br>
+      <span><a href="#" onclick="toggleAbstract('abstract4'); return false;">[Show/hide abstract]</a></span><br>
+      <div class="abstract" id="abstract4">
+          <span class="bullet-point">&#8226;</span>
+          <p class="inline-abstract">Before the COVID-19 pandemic, student F-1 visa applicants faced a 27 percent refusal rate that varies by time and region. Recent immigration policies have created uncertainty in whether international students will receive their visas. Using data on the universe of SAT takers between 2004 and 2015 matched with college enrollment records, we examine how the anticipated F-1 visa restrictiveness influences the enrollment of international students in the US. Using an instrumental variables approach, we find that a higher anticipated F-1 student visa refusal rate decreases the number of international SAT takers, decreases the probability of sending SAT scores to US colleges, and decreases international student enrollment in the US. The decreases are larger among international students with higher measured academic achievement. We also document academic achievement of international students and show that over 40 percent of high-scoring international SAT takers do not pursue US college education.</p>
+      </div>
+    </div>
+</div>
+
 <div class="publication" id="pub5">
     <span class="bold-text">
         The Value of US College Education in Global Labor Markets: Experimental Evidence from China</span><br>
     <div class="indented-content">
       <span>Mingyu Chen</span><br>
-      <span><i>Forthcoming, <u>Management Science</u></i></span><br>
+      <span><i><u>Management Science</u>, Vol.70 (April 2023)</i></span><br>
       <span>Media coverage (selected): 
             <a href="https://www.insidehighered.com/news/2019/04/11/research-chinese-employers-are-more-likely-call-back-chinese-educated-applicants" target="_blank">[INSIDE HIGHER ED]</a>, 
             <a href="https://www.chronicle.com/article/fading-beacon?bc_nonce=ohb1usio1vznshtawcjw&cid=reg_wall_signup" target="_blank">[Chronicle of Higher Education]</a>, 
@@ -142,33 +163,11 @@ nav_order: 2
     </div>
 </div>
 
-
-<div class="publication" id="pub4">
-    <span class="bold-text">
-        Best and Brightest? The Impact of Student Visa Restrictiveness on Who Attends College in the US</span><br>
-    <div class="indented-content">
-      <span>Mingyu Chen, Jessica Howell and Jonathan Smith</span><br>
-      <span><i><u>Labour Economics</u>, Vol.84 (October 2023)</i></span><br>
-      <span>Media coverage: 
-            <a href="https://www.getrevue.co/profile/latitudes/issues/another-blow-edition-246020" target="_blank">[latitude(s)]</a>, 
-            <a href="https://www.scmp.com/news/china/article/3092242/trump-administration-limits-international-visas-leave-chinese-students" target="_blank">[South China Morning Post] </a>, 
-            <a href="https://www.future-ed.org/best-and-brightest-the-impact-of-student-visa-restrictions/" target="_blank">[FutureEd] </a>
-      </span><br>
-      <span><a href="/assets/pdf/CHS_F1visaSAT_published.pdf" target="_blank">[Published Version] </a><a href="/assets/pdf/CHS_F1visaSAT_prepub.pdf" target="_blank">[Pre-publication (April 2023)]</a></span><br>
-      <span><a href="#" onclick="toggleAbstract('abstract4'); return false;">[Show/hide abstract]</a></span><br>
-      <div class="abstract" id="abstract4">
-          <span class="bullet-point">&#8226;</span>
-          <p class="inline-abstract">Before the COVID-19 pandemic, student F-1 visa applicants faced a 27 percent refusal rate that varies by time and region. Recent immigration policies have created uncertainty in whether international students will receive their visas. Using data on the universe of SAT takers between 2004 and 2015 matched with college enrollment records, we examine how the anticipated F-1 visa restrictiveness influences the enrollment of international students in the US. Using an instrumental variables approach, we find that a higher anticipated F-1 student visa refusal rate decreases the number of international SAT takers, decreases the probability of sending SAT scores to US colleges, and decreases international student enrollment in the US. The decreases are larger among international students with higher measured academic achievement. We also document academic achievement of international students and show that over 40 percent of high-scoring international SAT takers do not pursue US college education.</p>
-      </div>
-    </div>
-</div>
-
-
 <div class="publication" id="pub3">
     <span class="bold-text2">
         Can a Summer Make a Difference? The Impact of the American Economic Association Summer Program on Minority Student Outcomes</span><br>
     <div class="indented-content">
-      <span>Charles Becker, Cecilia E. Rouse, and Mingyu Chen</span><br>
+      <span>joint work with Charles Becker and Cecilia E. Rouse</span><br>
       <span><i><u>Economics of Education Review</u>, Vol.53 (August 2016)</i></span><br>
       <span>Media coverage: 
             <a href="https://www.amazon.science/latest-news/amazon-to-sponsor-howard-university-summer-program-aimed-at-increasing-pipeline-of-minority-economists" target="_blank">[Amazon Science]</a>
@@ -187,7 +186,7 @@ nav_order: 2
     <span class="bold-text">
         Labor Mismatch in the Great Recession: A Review of Indexes Using Recent U.S. Data</span><br>
     <div class="indented-content">
-      <span>Maria Canon, Mingyu Chen, and Elise Marifian</span><br>
+      <span>joint work with Maria Canon and Elise Marifian</span><br>
       <span><i><u>Federal Reserve Bank of St. Louis Review</u>, Vol.95(3) (May 2013)</i></span><br>
       <span><a href="https://www.semanticscholar.org/paper/Labor-mismatch-in-the-Great-Recession%3A-a-review-of-Canon-Chen/117f6b318a1a1d1ea5feb0fc4f5346de00268b74?p2df" target="_blank">[Published Version] </a></span><br>      
       <span><a href="#" onclick="toggleAbstract('abstract2'); return false;">[Show/hide abstract]</a></span><br>
@@ -203,7 +202,7 @@ nav_order: 2
     <span class="bold-text2">
         Wearing New Shoes to Walk the Old Road: The Negotiation of Opposing Imperatives in High School New Curriculum Classes in China</span><br>
     <div class="indented-content">
-      <span>Tanja Sargent, Mingyu Chen, Shelley Wu, and Chentong Chen</span><br>
+      <span>joint work with Tanja Sargent, Shelley Wu, and Chentong Chen</span><br>
       <span><i>In <u>International Perspectives on Education and Society</u>, Vol.15, (December 2011)</i></span><br>
       <span><a href="https://www.emeraldinsight.com/doi/abs/10.1108/S1479-3679%282011%290000015007" target="_blank">[Published Version] </a></span><br>
       <span><a href="#" onclick="toggleAbstract('abstract1'); return false;">[Show/hide abstract]</a></span><br>
@@ -225,7 +224,7 @@ nav_order: 2
     <span class="bold-text">
         Labor Mismatch in the Great Recession: A Review of Indexes Using Recent U.S. Data</span><br>
     <div class="indented-content">
-      <span>Yi Wen and Mingyu Chen</span><br>
+      <span>joint work with Yi Wen</span><br>
       <span><i><u>Economic Synopses</u>, 2012</i> <a href="https://files.stlouisfed.org/files/htdocs/publications/es/12/ES_2012-06-08.pdf" target="_blank">[Published Version] </a></span><br>
     </div>
 </div>
@@ -243,7 +242,7 @@ nav_order: 2
     <span class="bold-text">
         The Mismatch between Job Openings and Job Seekers</span><br>
     <div class="indented-content">
-      <span>Maria Canon and Mingyu Chen</span><br>
+      <span>joint work with Maria Canon</span><br>
       <span><i><u>The Regional Economist</u>, 2011</i> <a href="https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/Files/PDFs/publications/pub_assets/pdf/re/2011/c/mismatch.pdf" target="_blank">[Published Version] </a></span><br>
     </div>
 </div>
@@ -252,7 +251,7 @@ nav_order: 2
     <span class="bold-text">
         Oil Price Shocks and Inflation Risk</span><br>
     <div class="indented-content">
-      <span>Yi Wen and Mingyu Chen</span><br>
+      <span>joint work with Yi Wen</span><br>
       <span><i><u>Economic Synopses</u>, 2011</i> <a href="https://files.stlouisfed.org/files/htdocs/publications/es/11/ES1119.pdf" target="_blank">[Published Version] </a></span><br>
     </div>
 </div>
@@ -261,7 +260,7 @@ nav_order: 2
     <span class="bold-text">
         RMB Appreciation and U.S. Inflation Risk</span><br>
     <div class="indented-content">
-      <span>Mingyu Chen and Yi Wen</span><br>
+      <span>joint work with Yi Wen</span><br>
       <span><i><u>Economic Synopses</u>, 2011</i> <a href="https://files.stlouisfed.org/files/htdocs/publications/es/11/ES1117.pdf" target="_blank">[Published Version] </a></span><br>
     </div>
 </div>

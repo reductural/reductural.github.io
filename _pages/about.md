@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://mingyu-chen.com">Senior Economist and IZA Research Affiliate</a>
+subtitle: <a href="https://mingyu-chen.com">Principal Economist and IZA Research Affiliate</a>
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my website. I am a Senior Economist at Amazon and a Research Affiliate to the IZA Institute of Labor Economics. My academic research interests are in labor, migration, China, causal inference, and consumer behaviors. I received my Ph.D. in Economics from Princeton University and was a Postdoctoral Research Associate at Princeton School of Public and International Affairs.
+Welcome to my website. I am a Principal Economist at Amazon and a Research Affiliate to the IZA Institute of Labor Economics. My academic research interests are in AI, labor, migration, China, causal inference, and consumer behaviors. I received my Ph.D. in Economics from Princeton University and was a Postdoctoral Research Associate at Princeton School of Public and International Affairs.
 
 <html>
 
