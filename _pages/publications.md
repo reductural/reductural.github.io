@@ -65,7 +65,7 @@ nav_order: 2
             <a href="https://www.opencampusmedia.org/2021/05/17/how-the-public-sees-international-students/" target="_blank">[latitude(s)]</a>, 
             <a href="https://mailchi.mp/ojed/jis-11-3" target="_blank">[Journal of International Students] </a>
       </span><br>
-      <span><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Current draft (September 2023)] </a></span><br>
+      <span><a href="/assets/pdf/Chen_Mingyu_CV.pdf" target="_blank">[Current draft (September 2025)] </a></span><br>
       <span><a href="#" onclick="toggleAbstract('abstract6'); return false;">[Show/hide abstract]</a></span><br>
       <div class="abstract" id="abstract6">
           <span class="bullet-point">&#8226;</span>
@@ -78,7 +78,7 @@ nav_order: 2
     <span class="bold-text">The impact of immigration on firms and workers: insights from the H-1B lottery</span><br>
     <div class="indented-content">
       <span>joint work with Agostina Brinatti, Parag Mahajan, Nicolas Morales, and Kevin Shih</span><br>
-      <span><b>Revise and Resubmit at Journal of Political Economy</b></span><br>
+      <span><i><u>Revise and Resubmit at Journal of Political Economy</i></u></span><br>
       <span><a href="https://nicolasmoralesg.github.io/papers/H1B_lotteries_Census.pdf" target="_blank">[Current draft (May 2025)] </a></span><br>
       <span><a href="#" onclick="toggleAbstract('abstract7'); return false;">[Show/hide abstract]</a></span><br>
       <div class="abstract" id="abstract7">
