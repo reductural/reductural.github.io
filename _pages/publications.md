@@ -78,7 +78,7 @@ nav_order: 2
     <span class="bold-text">The impact of immigration on firms and workers: insights from the H-1B lottery</span><br>
     <div class="indented-content">
       <span>joint work with Agostina Brinatti, Parag Mahajan, Nicolas Morales, and Kevin Shih</span><br>
-      <span><i><u>Revise and Resubmit at Journal of Political Economy</i></u></span><br>
+      <span><i><u>Revise and Resubmit at Journal of Political Economy</u></i></span><br>
       <span><a href="https://nicolasmoralesg.github.io/papers/H1B_lotteries_Census.pdf" target="_blank">[Current draft (May 2025)] </a></span><br>
       <span><a href="#" onclick="toggleAbstract('abstract7'); return false;">[Show/hide abstract]</a></span><br>
       <div class="abstract" id="abstract7">
