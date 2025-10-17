@@ -75,7 +75,7 @@ nav_order: 2
 </div>
 
 <div class="publication" id="pub7">
-    <span class="bold-text">The impact of immigration on firms and workers: insights from the H-1B lottery</span><br>
+    <span class="bold-text">The Impact of Immigration on Firms and Workers: Insights from the H-1B Lottery</span><br>
     <div class="indented-content">
       <span>joint work with Agostina Brinatti, Parag Mahajan, Nicolas Morales, and Kevin Shih</span><br>
       <span><i><u>Revise and Resubmit at Journal of Political Economy</u></i></span><br>
